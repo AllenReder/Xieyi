@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<!--轮播图-->
+<t-swiper current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+
+
+<!--主页导航按钮-->
+<block>
+  <view class="row">
+    <!-- 图片1 -->
+    <image class="rectangle1" src="/res/img/就医陪诊按钮.png" mode="aspectFit" bindtap="clickImg1"></image>
+    <!-- 图片2 -->
+    <image class="rectangle1" src="/res/img/院内护理按钮.png" mode="aspectFit" bindtap="clickImg2"></image>
+  </view>
+  <view class="row">
+    <!-- 图片3 -->
+    <image class="rectangle2" src="/res/img/远程医疗按钮.png" mode="aspectFit" bindtap="clickImg3"></image>
+    <!-- 图片4 -->
+    <image class="rectangle2" src="/res/img/院内向导按钮.png" mode="aspectFit" bindtap="clickImg4"></image>
+    <!-- 图片5 -->
+    <image class="rectangle2" src="/res/img/人员培训按钮.png" mode="aspectFit" bindtap="clickImg5"></image>
+    <!-- 添加更多图片 -->
+  </view>
+</block>
+
+<t-collapse theme="card" defaultValue="{{[0]}}" expandMutex expandIcon>
+  <t-collapse-panel header="公告" value="{{0}}">
+    欢迎使用携医系统
+  </t-collapse-panel>
+  <t-collapse-panel header="使用说明" value="{{1}}">
+    现在还不能用
+  </t-collapse-panel>
+  <t-collapse-panel header="关于携医" value="{{2}}">
+    此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容
+  </t-collapse-panel>
+  <t-collapse-panel header="联系我们" value="{{3}}">
+    此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容此处可自定义内容
+  </t-collapse-panel>
+</t-collapse>

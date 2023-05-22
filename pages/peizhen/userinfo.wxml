@@ -1,0 +1,18 @@
+<!--pages/peizhen/userinfo.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">填写陪诊信息</text>
+  </view>
+</view>
+<t-input label="陪诊人姓名" placeholder="请输入文字"></t-input>
+<t-input label="陪诊人性别" placeholder="请输入文字"></t-input>
+<t-input label="陪诊人年龄" placeholder="请输入文字"></t-input>
+<t-input label="陪诊人联系方式" placeholder="请输入文字"></t-input>
+<t-input label="监护人联系方式" placeholder="请输入文字"></t-input>
+<!--日期选择-->
+<calendar/>
+<t-input label="备注" placeholder="请输入文字"></t-input>
+
+
+<!--提交按钮-->
+<t-button theme="primary" size="large" block t-class="external-class">提交</t-button>

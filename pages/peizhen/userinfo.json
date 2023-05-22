@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-calendar": "tdesign-miniprogram/calendar/calendar",
+    "t-input": "tdesign-miniprogram/input/input",
+    "calendar": "./calendar/calendar"
+  }
+}

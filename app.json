@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/peizhen/peizhen",
+    "pages/peizhen/detail",
+    "pages/peizhen/userinfo",
+    "pages/huli/huli",
+    "pages/xiangdao/xiangdao",
+    "pages/yuancheng/yuancheng",
+    "pages/peixun/peixun",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/notice/notice"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "携医",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

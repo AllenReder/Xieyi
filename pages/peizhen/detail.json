@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-avatar": "tdesign-miniprogram/avatar/avatar",
+    "t-popup": "tdesign-miniprogram/popup/popup",
+    "t-divider": "tdesign-miniprogram/divider/divider"
+  }
+}

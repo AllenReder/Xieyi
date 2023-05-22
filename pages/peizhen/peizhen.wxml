@@ -1,0 +1,10 @@
+<!--pages/peizhen/peizhen.wxml-->
+
+<view>
+    <!-- 在这里展示JSON数据的多行信息 -->
+    <block wx:for="{{dataList}}" wx:key="key">
+        <view class="item" bindtap="onItemClick" data-index="{{index}}">
+            <t-cell title="{{item.name}}" description="{{item.label}}" align="top" image="{{item.icon}}" hover bordered="{{false}}" />
+        </view>
+    </block>
+</view>

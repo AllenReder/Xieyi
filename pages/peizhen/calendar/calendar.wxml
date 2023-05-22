@@ -1,0 +1,2 @@
+<!--component/calendar/calendar.wxml-->
+<t-calendar use-popup="{{false}}" bind:select="handleSelect" style="height:600rpx" />

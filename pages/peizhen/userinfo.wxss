@@ -1,0 +1,29 @@
+/* pages/peizhen/userinfo.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20rpx;
+  padding-bottom: 0rpx;
+}
+
+.header {
+  margin-bottom: 10rpx;
+}
+
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.button-example {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 32rpx 32rpx;
+}
+
+.external-class {
+  border-radius: 0 !important;
+}

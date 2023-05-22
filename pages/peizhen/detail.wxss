@@ -1,0 +1,28 @@
+.avatar {
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 64rpx;
+    margin-bottom: 64rpx;
+}
+
+.row-gap {
+    width: 20rpx;
+}
+
+.col-gap {
+    width: 20rpx;
+}
+
+.text_title {
+    font-size: 50rpx;
+    font-weight: bold;
+}
+
+.content {
+    margin: 20rpx;
+    font-size: 60 rpx;
+}
+
+.button-example {
+    margin:0 32rpx;
+}
