@@ -1,18 +1,39 @@
-// pages/logs/logs.js
+// pages/peizhen/mid.js
+
+const app = getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    index: 0,
+    data: {},
+  },
 
+  clickButton1: function () {
+    wx.navigateTo({
+      url: '/pages/peizhen/userinfo', // 新页面的路径
+    })
+  },
+  clickButton2: function () {
+    wx.navigateTo({
+      url: '/pages/peizhen/userinfo', // 新页面的路径
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      index: options.index,
+      data: app.yiyuan[options.index]
+    });
+    console.log(this.data.index);
+    console.log(this.data.data);
+    // this.data.data = app.yiyuan[int(options.index)]; //解析得到对象
   },
 
   /**

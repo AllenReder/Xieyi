@@ -1,1 +1,7 @@
 /* pages/peixun/peixun.wxss */
+.button {
+  margin-top: 20px;
+  width: 90vw;
+  height: 30vw;
+  margin-top: 100rpx;
+}

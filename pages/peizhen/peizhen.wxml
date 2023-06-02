@@ -1,10 +1,16 @@
 <!--pages/peizhen/peizhen.wxml-->
 
-<view>
-    <!-- 在这里展示JSON数据的多行信息 -->
+
+<view style="padding:20rpx; background-image: url('/res/img/peizhen_background.png');background-size: cover; background-repeat: no-repeat; ">
+  <view>
     <block wx:for="{{dataList}}" wx:key="key">
-        <view class="item" bindtap="onItemClick" data-index="{{index}}">
-            <t-cell title="{{item.name}}" description="{{item.label}}" align="top" image="{{item.icon}}" hover bordered="{{false}}" />
+      <view class="block" bindtap="onItemClick" data-index="{{index}}">
+        <image class="icon" src="{{item.icon}}" />
+        <view>
+          <view class="title">{{item.name}}</view>
+          <t-tag class="content" variant="light">{{item.label}}</t-tag>
         </view>
+      </view>
     </block>
+  </view>
 </view>

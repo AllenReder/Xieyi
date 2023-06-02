@@ -1,33 +1,10 @@
 /**index.wxss**/
 
-.img {
-  width: 100%;
-  height: 100%;
-}
-
 
 .row {
   display: flex;
 }
 
-.rectangle1 {
-  width: 400rpx;
-  height: 200rpx;
-  margin: 5rpx;
-}
-.rectangle2 {
-  width: 400rpx;
-  height: 150rpx;
-  margin: 5rpx;
-}
-
-.button-example {
-  margin: 0 32rpx;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32rpx;
-}
-
-.button-example:not(:last-child) {
-  margin-bottom: 32rpx;
+.item {
+  width: 50vw;
 }

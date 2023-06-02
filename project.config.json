@@ -45,6 +45,7 @@
   "appid": "wx2f93d9085f641560",
   "projectname": "miniprogram-92",
   "condition": {},
+  "lazyCodeLoading": "requiredComponents",
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

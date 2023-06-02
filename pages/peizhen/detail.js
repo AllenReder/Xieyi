@@ -13,7 +13,7 @@ Page({
 
     clickButton: function () {
         wx.navigateTo({
-            url: '/pages/peizhen/userinfo?index=' + this.data.index,
+            url: '/pages/peizhen/mid?index=' + this.data.index,
         })
     },
     /**

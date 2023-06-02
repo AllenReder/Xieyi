@@ -9,18 +9,24 @@
     "pages/yuancheng/yuancheng",
     "pages/peixun/peixun",
     "pages/user/user",
-    "pages/logs/logs",
-    "pages/notice/notice"
+    "pages/peizhen/mid"
   ],
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "iconPath": "/res/img/tabbar_index.png",
+        "selectedIconPath": "/res/img/tabbar_index.png"
+      },
+      {
+        "pagePath": "pages/peizhen/peizhen",
+        "iconPath": "/res/img/tabbar_peizhen.png",
+        "selectedIconPath": "/res/img/tabbar_peizhen_clicked.png"
       },
       {
         "pagePath": "pages/user/user",
-        "text": "我的"
+        "iconPath": "/res/img/tabbar_user.png",
+        "selectedIconPath": "/res/img/tabbar_user.png"
       }
     ]
   },

@@ -1,28 +1,26 @@
-.avatar {
-    width: 50rpx;
-    height: 50rpx;
-    margin-right: 64rpx;
-    margin-bottom: 64rpx;
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top:100rpx;
 }
 
-.row-gap {
-    width: 20rpx;
+.logo {
+  width: 400rpx;
+  height: 400rpx;
 }
 
-.col-gap {
-    width: 20rpx;
+.text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
 }
 
-.text_title {
-    font-size: 50rpx;
-    font-weight: bold;
-}
-
-.content {
-    margin: 20rpx;
-    font-size: 60 rpx;
-}
-
-.button-example {
-    margin:0 32rpx;
+.button {
+  margin-top: 20px;
+  width: 90vw;
+  height: 30vw;
+  margin-top: 100rpx;
 }

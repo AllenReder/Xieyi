@@ -1,20 +1,10 @@
 <!--pages/peizhen/detail.wxml-->
 
-<!--图标和标题-->
-<view>
-    <view style="display: flex; flex-direction: row; align-items: center">
-        <t-avatar class="avatar" shape="round" image="{{data.icon}}" />
-        <view class="row-gap"> </view>
-        <text class="text_title">{{data.fullname}}</text>
-    </view>
+<view style="padding:20rpx; background-image: url('/res/img/peizhen_background.png');background-size: cover; background-repeat: no-repeat; ">
+  <view class="container">
+    <image class="logo" src="{{data.icon}}"/>
+    <view class="text">{{data.describe}}</view>
+      <image class="button" src="/res/img/peizhen_button.png" bind:tap="clickButton"></image>
+  </view>
 </view>
 
-<!--陪诊服务按钮-->
-<view class="button-example">
-    <t-button theme="primary" size="large" block bind:tap="clickButton">陪诊服务</t-button>
-</view>
-
-<!--简介-->
-<view class="content">
-    <text>{{data.describe}}</text>
-</view>

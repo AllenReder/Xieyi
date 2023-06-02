@@ -1,2 +1,9 @@
 <!--pages/peixun/peixun.wxml-->
-<view>暂未开放</view>
+
+<view style="padding:20rpx; background-image: url('/res/img/peizhen_background.png');background-size: cover; background-repeat: no-repeat; ">
+  <view class="container">
+    <image class="button" src="/res/img/peixun_button1.png" bind:tap="clickButton1"></image>
+    <image class="button" src="/res/img/peixun_button2.png" bind:tap="clickButton1"></image>
+    <image class="button" src="/res/img/peixun_button3.png" bind:tap="clickButton1"></image>
+  </view>
+</view>

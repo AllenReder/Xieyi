@@ -2,25 +2,18 @@
 <!--轮播图-->
 <t-swiper current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
 
+<!-- WXML -->
+<view>
+  <view class="row">
+    <image style="width: 375rpx; height: 207rpx; display: block; box-sizing: unset" class="item" src="/res/img/index_button1.png" mode="aspectFit" bindtap="clickImg1"/>
+    <image style="width: 375rpx; height: 207rpx; display: block; box-sizing: border-box" class="item" src="/res/img/index_button2.png" mode="aspectFit"  bindtap="clickImg2"/>
+  </view>
+  <view class="row">
+    <image style="width: 375rpx; height: 193rpx; display: block; box-sizing: border-box" class="item" src="/res/img/index_button3.png" mode="aspectFit"  bindtap="clickImg3"/>
+    <image style="width: 375rpx; height: 193rpx; display: block; box-sizing: border-box" class="item" src="/res/img/index_button4.png" mode="aspectFit" bindtap="clickImg4" />
+  </view>
+</view>
 
-<!--主页导航按钮-->
-<block>
-  <view class="row">
-    <!-- 图片1 -->
-    <image class="rectangle1" src="/res/img/就医陪诊按钮.png" mode="aspectFit" bindtap="clickImg1"></image>
-    <!-- 图片2 -->
-    <image class="rectangle1" src="/res/img/院内护理按钮.png" mode="aspectFit" bindtap="clickImg2"></image>
-  </view>
-  <view class="row">
-    <!-- 图片3 -->
-    <image class="rectangle2" src="/res/img/远程医疗按钮.png" mode="aspectFit" bindtap="clickImg3"></image>
-    <!-- 图片4 -->
-    <image class="rectangle2" src="/res/img/院内向导按钮.png" mode="aspectFit" bindtap="clickImg4"></image>
-    <!-- 图片5 -->
-    <image class="rectangle2" src="/res/img/人员培训按钮.png" mode="aspectFit" bindtap="clickImg5"></image>
-    <!-- 添加更多图片 -->
-  </view>
-</block>
 
 <t-collapse theme="card" defaultValue="{{[0]}}" expandMutex expandIcon>
   <t-collapse-panel header="公告" value="{{0}}">
